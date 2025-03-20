@@ -8,7 +8,7 @@ public class FunRestController {
 
     // Expose "/" that return "Hello World"
     @GetMapping("/")
-    public String sayHello() { //
+    public String sayHello() { // This method will be called when the "/" endpoint is accessed
         return "Hello World!";
     }
 
